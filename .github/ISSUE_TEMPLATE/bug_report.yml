@@ -25,21 +25,21 @@ body:
     validations:
       required: true
 
-  - type:" textarea"
+  - type: "textarea"
     attributes:
       label: "Hol történt a hiba?"
       description: "URL, oldal részének neve, esetleg képernyőkép, mit csináltál közvetlenül előtte"
     validations:
       required: true
 
-  - type:" textarea"
+  - type: "textarea"
     attributes:
       label: "Mi az aktuális állapot?"
       description: "Írd le a hibás működést"
     validations:
       required: true
 
-  - type:" textarea"
+  - type: "textarea"
     attributes:
       label: "Mi a kívánt állapot?"
       description: "Ha szükséges, írd le hogyan működjön helyesen"
