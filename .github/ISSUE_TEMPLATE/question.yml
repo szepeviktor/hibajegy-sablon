@@ -1,0 +1,9 @@
+name: "Kérdés"
+description: "Ha csak egy egyszerű kérdést tennél fel"
+body:
+  - type: "textarea"
+    attributes:
+      label: "A kérdés"
+      description: ":bulb: Add meg a felhasználó, kategória, forduló azonosítókat."
+    validations:
+      required: true

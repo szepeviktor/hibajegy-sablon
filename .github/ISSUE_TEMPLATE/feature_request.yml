@@ -1,0 +1,22 @@
+name: "Új/bővített funkció"
+description: "Azt szeretném kérni, hogy olyan funkció is legyen, ami még nem volt"
+body:
+  - type: "dropdown"
+    attributes:
+      label: "Alkalmazás része"
+      description: "Hol valósítsuk meg?"
+      options:
+        - "nyilvános front-end"
+        - "admin"
+        - "küldött üzenetben"
+        - "műszaki dolog"
+        - "máshol: majd leírom"
+    validations:
+      required: true
+
+  - type: "textarea"
+    attributes:
+      label: "A funkció leírása"
+      description: ":warning: Egy hibajegyen egy funkció legyen. A CRUD-t gondold végig!"
+    validations:
+      required: true
