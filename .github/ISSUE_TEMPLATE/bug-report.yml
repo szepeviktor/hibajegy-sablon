@@ -1,0 +1,47 @@
+name: "Hiba bejelentés"
+description: "A funkció már készen van, csak nem kívánt módon működik"
+body:
+  - type: "dropdown"
+    attributes:
+      label: "Környezet"
+      description: "Hol találkoztál a hibával?"
+      options:
+        - "staging"
+        - "éles"
+        - "saját gép"
+    validations:
+      required: true
+
+  - type: "dropdown"
+    attributes:
+      label: "Böngésző"
+      description: ":bulb: A böngésző konzol legyen nyitva!"
+      options:
+        - "Chrome + Windows"
+        - "Firefox + Windows"
+        - "Chrome + Android"
+        - "Safari + iOS"
+        - "más: majd leírom"
+    validations:
+      required: true
+
+  - type:" textarea"
+    attributes:
+      label: "Hol történt a hiba?"
+      description: "URL, oldal részének neve, esetleg képernyőkép, mit csináltál közvetlenül előtte"
+    validations:
+      required: true
+
+  - type:" textarea"
+    attributes:
+      label: "Mi az aktuális állapot?"
+      description: "Írd le a hibás működést"
+    validations:
+      required: true
+
+  - type:" textarea"
+    attributes:
+      label: "Mi a kívánt állapot?"
+      description: "Ha szükséges, írd le hogyan működjön helyesen"
+    validations:
+      required: false
