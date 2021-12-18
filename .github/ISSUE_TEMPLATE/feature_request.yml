@@ -17,6 +17,6 @@ body:
   - type: "textarea"
     attributes:
       label: "A funkció leírása"
-      description: ":warning: Egy hibajegyen egy funkció legyen. A CRUD-t gondold végig!"
+      description: ":warning: Egy hibajegyen egy funkció legyen. A CRUD-t gondold végig, és kérj hibakezelést!"
     validations:
       required: true
